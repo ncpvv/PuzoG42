@@ -1,0 +1,135 @@
+body {
+    background-image: linear-gradient(to bottom, grey, rgb(53, 53, 53));
+  }
+
+.bc {
+  background-color: white; 
+  margin: 0;
+  background-image: url(ПузоАва.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.element {
+  text-align: center;
+}
+
+.button-panel {
+  position: fixed;
+  top: 15;
+  left: 0;
+  padding: 10px;
+  z-index: 9999;
+  width: 100%;
+  display: flex;
+  font-size: 0;
+  justify-content: center;
+}
+
+@media screen and (max-width: 1000px) {
+  .button-panel {
+      display: none;
+  }
+}
+
+.button-panel button {
+  padding: 10px 10px;
+  background-color: transparent;
+  border: 0px;
+  border-radius: 100px;
+  font-size: 16px;
+  color: black;
+  cursor: pointer;
+  margin-left: 30px; 
+}
+
+.button-panel button:last-child {
+  margin-right: 0;
+}
+
+.button-panel button:hover {
+  background-color: none;
+}
+
+.photo-gallery {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.photo-gallery figure {
+  text-align: center;
+  margin: 10;
+}
+
+.photo-gallery img {
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.photo-gallery figcaption {
+  margin-top: 5px;
+  font-size: 14px;
+}
+
+.montserrat {
+  font-family: 'Montserrat', sans-serif;
+  color: white
+}
+
+.scroll-container {
+  overflow-x: auto;
+  white-space: nowrap;
+}
+
+.najatie {
+  color: rgb(27, 204, 248);
+}
+
+img {
+  float: left; /* Указываем, что изображение будет выравниваться слева */
+  margin-right: 10px; /* Добавляем небольшой отступ справа, чтобы текст не прилипал к изображению */
+}
+
+a { 
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  color: #000000;
+ } 
+
+.image-container {
+  text-align: center;
+}
+
+figure {
+  text-align: center;
+}
+
+figcaption {
+  text-align: center;
+  font-weight: bold;
+}
+
+.description {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.phototracks {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: left;
+}
+
+.opisanietracka {
+    text-align: left;
+  }
+
+.mejstrok {
+    line-height: 2;
+  }
+
+.centertext {
+    text-align: justify;
+  }
